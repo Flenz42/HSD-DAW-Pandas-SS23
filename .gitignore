@@ -36,3 +36,6 @@ key/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# Custom
+!data/access_short.log
