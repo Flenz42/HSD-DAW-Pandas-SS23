@@ -444,27 +444,6 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/intellij+all,pycharm+all,visualstudiocode,windows,linux,macos,synology,git,jupyternotebooks,python
 
 # CUSTOM
-
-# logs and temp data
-log
-logs
-temp
-*.tmp
-*.log
-thumbs.db
-
-# builds
-out/
-dist/
-
-# caches
-__pycache__
-
-# private space and other related things
-/private/
-/secret/
-cert/
-key/
-
-# Custom
+data/*.log
 !data/access_short.log
+data/geo-city/
