@@ -4,3 +4,7 @@ notebook
 SQLAlchemy
 seaborn
 jupyternb-task-review===1.2.4
+ipcalc
+janitor
+matplotlib
+numpy

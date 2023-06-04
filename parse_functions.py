@@ -1,5 +1,6 @@
 from datetime import datetime
 import pytz
+import numpy as np
 
 # Source: https://mmas.github.io/read-apache-access-log-pandas
 
@@ -29,3 +30,10 @@ def parse_datetime(x):
     dt_tz = int(x[-6:-3])*60+int(x[-3:-1])
     return dt.replace(tzinfo=pytz.FixedOffset(dt_tz))
 
+def ip_to_int(ip_ser):
+    ips = ip_ser.str.split('.', expand=True).astype(np.int16).values
+    mults = np.tile(np.array([24, 16, 8, 0]), len(ip_ser)).reshape(ips.shape)
+    return np.sum(np.left_shift(ips, mults), axis=1)
+
+def ip_to_int_arr(arr_ip_ser):
+    return arr_ip_ser.map(lambda ips: ip_to_int(ips))
