@@ -7,3 +7,6 @@ jupyternb-task-review===1.2.4
 ipcalc
 matplotlib
 numpy
+pyyaml
+ua-parser
+user-agents
