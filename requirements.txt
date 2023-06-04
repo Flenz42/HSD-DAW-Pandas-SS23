@@ -6,3 +6,4 @@ seaborn
 jupyternb-task-review===1.2.4
 ipcalc
 matplotlib
+numpy
