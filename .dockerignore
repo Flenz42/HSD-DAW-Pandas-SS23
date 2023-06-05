@@ -448,3 +448,6 @@ $RECYCLE.BIN/
 *.csv
 !data/access_short.log
 data/geo-city/
+
+# Not in gitignore
+!data/access_log.csv
