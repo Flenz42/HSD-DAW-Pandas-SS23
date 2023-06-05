@@ -15,9 +15,7 @@ Die Datenbasis ist ein Auszug der Logdaten aus dem Zugriffslog eines Apache Webs
 
 Mithilfe der folgenden Befehle kann unsere Aufgabenlösung lokal in einem Docker Container gestartet werden:
 
-ToDo: Befehle Anpassen!
-
-```
+```shell
 docker build -t daw-zugriffsdaten-ss23:1.0 .
 docker run -p 8888:8888 daw-zugriffsdaten-ss23:1.0
 ```
