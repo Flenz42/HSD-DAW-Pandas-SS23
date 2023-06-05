@@ -3,13 +3,22 @@
 - Autoren: Florian Lenz, Tom Seiffert
 - Grundlage: Zur Vorbereitung wurde folgendes Lernmodul verwendet: https://projectbase.medien.hs-duesseldorf.de/eild.nrw-module/lernmodul-pandas
 
-
 ## Aufgaben
 
 Die Datenbasis ist ein Auszug der Logdaten aus dem Zugriffslog eines Apache Webservers. Die Daten liegen in Form einer Textdatei vor.
 
 1. Aufgabe: Analysieren Sie welche Produkte beliebt sind. Entwickeln Sie dazu eine Definition eines beliebten Produktes.
 2. Aufgabe: Untersuchen Sie den Datensatz auf weitere Auffälligkeiten
+
+## Setup
+
+Bevor es losgehen kann, brauchst du noch die Datensets.
+
+Alle Datensets findest du auf [Sharepoint](https://fhd-my.sharepoint.com/:f:/g/personal/florian_lenz_study_hs-duesseldorf_de/ElsRv7-Cle9EqKOhQBtYK10BC4xY-UkdNeQ9n-YJVlF_GQ?e=MbV2gp).
+
+Wir empfehlen die `access_log.csv`, das geht am schnellsten. Alternativ kannst du auch die anderen CSV-Dateien herunterladen.
+
+Platziere die Daten in deinem `data`-Ordner.
 
 ## Lösung Starten
 
