@@ -442,12 +442,3 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij+all,pycharm+all,visualstudiocode,windows,linux,macos,synology,git,jupyternotebooks,python
-
-# CUSTOM
-*.log
-*.csv
-!data/access_short.log
-data/geo-city/
-
-# Not in gitignore
-!data/access_log.csv
