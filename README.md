@@ -29,6 +29,13 @@ Zusätzlich werden in der [`wip_ip.ipynb`](wip_ip.ipynb) die IP-Adressen analysi
 
 Öffnet das Projekt / die Notebooks einfach in einer IDE deiner Wahl (z. B. VisualStudioCode): [`project.ipynb`](project.ipynb)
 
+### Google Colab
+
+Ihr könnt das Projekt auch über Google Colab öffnen:
+
+- [`project.ipynb` via Colab](https://colab.research.google.com/github/Flenz42/HSD-DAW-Pandas-SS23/blob/colab/project.ipynb?hl=de)
+- [`wip_ip.ipynb` via Colab](https://colab.research.google.com/github/Flenz42/HSD-DAW-Pandas-SS23/blob/colab/wip_ip.ipynb?hl=de)
+
 ### Docker
 
 Mithilfe der folgenden Befehle kann unsere Aufgabenlösung lokal in einem Docker Container gestartet werden:
