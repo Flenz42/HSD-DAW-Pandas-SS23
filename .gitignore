@@ -446,5 +446,7 @@ $RECYCLE.BIN/
 # CUSTOM
 *.log
 *.csv
+*.zip
+*.tmp
 !data/access_short.log
 data/geo-city/
